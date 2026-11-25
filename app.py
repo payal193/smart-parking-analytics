@@ -229,7 +229,7 @@ with tab4:
     st.markdown("**Session Pairing Breakdown**")
     st.dataframe(status_counts, use_container_width=True, hide_index=True)
 
-    st.markdown("### Documented Limitations (Important for Jury Viva)")
+    st.markdown("### Documented Limitations ")
     st.markdown("""
     * **Observational comparison, not strict causation:** Higher occupancy during event windows can overlap with weekends, evening peaks, or weather shifts—event schedules show association, not isolated causal proof.
     * **Boundary & missing-entry blind spots:** Vehicles with unmatched exits (`UNMATCHED_EXIT`) or missing exits are excluded from duration-based occupancy rather than guessed, which can slightly undercount active vehicles.
